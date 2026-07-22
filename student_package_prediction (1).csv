@@ -1,0 +1,501 @@
+StudentID,Specialization,AttendanceBand,InternshipDone,Backlogs,CGPA,CommunicationScore,PackageLPA
+2001,Networking,Medium,No,2,5.96,6.4,2.5
+2002,Web Development,High,No,0,8.49,5.4,5.76
+2003,Networking,Low,Yes,1,5.74,7.1,3.8
+2004,Cybersecurity,Medium,Yes,1,7.21,9.5,7.51
+2005,Cloud Computing,Medium,Yes,1,7.92,6.1,6.36
+2006,Web Development,Low,Yes,1,6.14,8.6,4.63
+2007,Cloud Computing,Low,Yes,1,8.6,4.9,8.38
+2008,Cybersecurity,Low,No,2,7.94,4.6,5.63
+2009,Cloud Computing,High,Yes,2,6.98,7.7,4.88
+2010,Data Science,Low,No,1,8.95,4.2,6.78
+2011,Networking,Medium,No,0,6.54,4.4,3.11
+2012,Cybersecurity,Medium,No,0,8.2,7.0,6.75
+2013,Cybersecurity,Medium,No,1,7.08,7.4,4.9
+2014,Data Science,High,Yes,0,9.4,9.8,9.98
+2015,Web Development,Medium,No,0,6.97,7.3,4.37
+2016,Cloud Computing,High,No,1,9.19,9.0,7.68
+2017,Networking,Medium,Yes,2,5.58,7.9,3.2
+2018,Networking,High,Yes,0,5.9,7.5,3.4
+2019,Cloud Computing,Low,Yes,3,8.35,6.7,6.95
+2020,Data Science,Medium,Yes,1,8.75,9.9,9.77
+2021,Web Development,Low,Yes,0,6.5,7.0,5.2
+2022,Networking,Low,Yes,0,7.6,5.4,5.12
+2023,Data Science,High,Yes,0,8.77,7.1,9.14
+2024,Web Development,Medium,No,0,7.69,9.1,5.26
+2025,Data Science,Medium,No,0,8.42,5.8,7.03
+2026,Cloud Computing,Medium,No,1,8.54,5.6,6.87
+2027,Cloud Computing,Medium,No,0,8.25,6.0,6.24
+2028,Cybersecurity,High,Yes,2,7.15,9.6,5.93
+2029,Data Science,Medium,Yes,2,8.61,6.4,7.37
+2030,Networking,Low,No,2,6.27,9.0,3.23
+2031,Networking,Medium,Yes,1,6.72,7.5,4.06
+2032,Data Science,High,Yes,0,9.2,7.2,9.52
+2033,Cloud Computing,Low,Yes,1,6.85,8.7,6.12
+2034,Cybersecurity,Low,Yes,0,8.03,4.9,8.42
+2035,Web Development,High,Yes,0,7.36,8.6,6.26
+2036,Cloud Computing,High,Yes,2,8.78,5.8,7.62
+2037,Data Science,Medium,No,1,9.59,9.9,8.11
+2038,Networking,Medium,Yes,0,5.83,7.1,4.05
+2039,Networking,Low,Yes,3,7.04,5.7,4.66
+2040,Cloud Computing,Medium,No,1,6.86,9.5,4.14
+2041,Cybersecurity,High,No,0,7.1,8.7,6.04
+2042,Web Development,High,No,3,6.36,6.1,2.5
+2043,Networking,Low,No,0,7.51,6.9,4.25
+2044,Data Science,Medium,Yes,0,8.06,10.0,8.0
+2045,Web Development,Low,Yes,0,8.22,7.9,5.97
+2046,Cybersecurity,High,Yes,0,8.62,9.3,8.11
+2047,Data Science,Low,No,0,9.02,5.1,7.59
+2048,Data Science,Low,Yes,1,8.22,7.4,7.87
+2049,Cloud Computing,Low,No,1,8.99,4.1,6.78
+2050,Cloud Computing,Medium,Yes,0,8.14,6.0,7.4
+2051,Cybersecurity,High,No,0,7.57,6.8,5.75
+2052,Web Development,Medium,No,0,7.16,6.1,3.4
+2053,Cloud Computing,High,No,0,6.74,6.4,4.9
+2054,Cybersecurity,Low,Yes,1,7.64,6.4,6.24
+2055,Cybersecurity,High,Yes,1,8.53,9.8,8.72
+2056,Cloud Computing,Medium,No,3,7.04,9.8,4.2
+2057,Cybersecurity,High,No,0,7.2,4.9,5.18
+2058,Cybersecurity,Medium,Yes,2,7.83,8.1,7.08
+2059,Cybersecurity,Low,Yes,3,7.43,6.3,5.49
+2060,Cybersecurity,Medium,No,2,8.75,4.0,5.97
+2061,Networking,High,No,0,7.01,9.8,4.19
+2062,Cybersecurity,Low,Yes,1,8.84,4.9,8.43
+2063,Web Development,Low,No,1,6.63,8.6,3.79
+2064,Cybersecurity,Low,Yes,0,7.21,9.7,7.05
+2065,Cybersecurity,Medium,Yes,1,8.51,6.9,8.55
+2066,Cybersecurity,Low,No,1,8.6,9.1,6.82
+2067,Cloud Computing,High,No,2,8.09,7.1,5.06
+2068,Cybersecurity,Medium,Yes,3,9.27,9.2,8.44
+2069,Cloud Computing,Low,Yes,0,7.53,6.7,6.62
+2070,Networking,Medium,Yes,1,6.97,8.2,4.19
+2071,Cloud Computing,High,Yes,1,7.9,5.9,6.96
+2072,Web Development,Medium,Yes,0,7.25,4.9,6.45
+2073,Networking,Medium,No,1,7.72,6.9,3.8
+2074,Cloud Computing,Low,No,0,8.36,7.2,5.86
+2075,Data Science,High,No,0,7.57,8.2,6.21
+2076,Cybersecurity,Low,Yes,0,9.26,8.3,10.12
+2077,Web Development,Low,Yes,2,6.36,4.8,3.68
+2078,Cybersecurity,High,No,1,9.36,8.0,7.79
+2079,Data Science,Medium,No,0,8.63,7.6,7.99
+2080,Networking,Low,Yes,1,6.52,7.3,5.03
+2081,Cloud Computing,High,No,1,7.0,8.2,5.0
+2082,Data Science,Low,No,0,9.0,9.0,8.53
+2083,Data Science,Medium,Yes,1,7.62,8.3,6.74
+2084,Web Development,Low,No,0,6.63,9.6,4.1
+2085,Data Science,Medium,No,1,9.76,4.8,8.57
+2086,Web Development,Low,No,1,8.27,9.6,5.81
+2087,Cloud Computing,Low,No,2,6.96,4.5,3.6
+2088,Cybersecurity,Medium,No,0,8.77,8.2,7.22
+2089,Cloud Computing,Low,Yes,2,6.64,4.1,4.24
+2090,Cloud Computing,High,Yes,0,9.1,4.4,8.43
+2091,Cloud Computing,Medium,No,3,7.56,6.5,4.28
+2092,Cloud Computing,Low,No,2,7.54,9.5,4.97
+2093,Web Development,Low,Yes,1,7.87,6.4,5.88
+2094,Networking,High,Yes,1,6.0,5.8,3.29
+2095,Web Development,High,Yes,0,6.68,7.6,4.75
+2096,Data Science,Low,Yes,0,8.13,7.1,8.37
+2097,Cybersecurity,High,No,1,7.77,9.8,6.97
+2098,Web Development,Medium,Yes,2,8.0,5.6,6.03
+2099,Networking,High,No,1,7.29,9.8,4.2
+2100,Networking,Medium,Yes,0,5.56,8.5,3.99
+2101,Web Development,High,No,1,6.62,6.5,2.83
+2102,Networking,Low,Yes,3,5.7,4.3,2.5
+2103,Data Science,Medium,No,2,9.76,4.6,8.24
+2104,Web Development,High,No,1,7.52,4.6,5.14
+2105,Cybersecurity,High,Yes,2,9.26,8.1,8.63
+2106,Cybersecurity,Low,Yes,0,9.28,6.4,9.26
+2107,Cloud Computing,High,No,0,7.86,8.5,6.28
+2108,Cloud Computing,Low,No,1,8.08,4.2,4.77
+2109,Cybersecurity,Medium,Yes,0,7.28,6.5,6.72
+2110,Data Science,Medium,Yes,3,8.14,9.6,6.61
+2111,Web Development,Low,Yes,1,6.64,9.9,5.59
+2112,Web Development,Medium,Yes,0,6.42,9.7,4.2
+2113,Cybersecurity,Medium,No,0,8.16,4.2,5.92
+2114,Networking,Low,No,0,6.82,7.0,3.48
+2115,Web Development,Medium,No,1,6.18,5.0,2.5
+2116,Data Science,Medium,Yes,0,7.55,5.9,7.24
+2117,Cloud Computing,Medium,No,1,7.89,8.7,5.65
+2118,Cloud Computing,Medium,No,1,6.54,6.0,4.67
+2119,Cloud Computing,Medium,No,2,7.28,8.6,4.96
+2120,Cybersecurity,High,Yes,2,7.09,5.6,5.76
+2121,Web Development,High,Yes,2,8.61,9.9,7.34
+2122,Networking,Medium,No,1,6.75,9.4,3.48
+2123,Cybersecurity,Medium,No,2,8.33,8.5,6.4
+2124,Networking,Medium,No,0,7.66,9.7,5.13
+2125,Cybersecurity,Low,No,1,8.66,6.9,7.11
+2126,Data Science,Medium,Yes,0,7.61,5.2,7.17
+2127,Cybersecurity,High,No,0,9.34,5.5,6.76
+2128,Web Development,High,No,0,6.9,9.0,4.25
+2129,Cloud Computing,Medium,Yes,1,8.42,6.9,7.03
+2130,Cybersecurity,Low,No,0,7.06,8.4,5.89
+2131,Networking,Low,Yes,2,6.1,4.5,3.84
+2132,Networking,Medium,Yes,0,7.19,8.8,5.29
+2133,Cloud Computing,High,No,0,8.37,8.1,6.32
+2134,Networking,Medium,No,0,6.3,4.5,2.58
+2135,Data Science,High,Yes,2,8.82,5.3,7.34
+2136,Web Development,Medium,No,0,7.41,9.9,4.26
+2137,Web Development,Low,Yes,0,6.01,7.2,3.97
+2138,Networking,Low,Yes,1,6.85,6.4,4.17
+2139,Cloud Computing,High,Yes,1,7.2,8.6,6.2
+2140,Networking,Low,Yes,0,6.91,6.1,4.38
+2141,Networking,Low,Yes,3,6.74,6.1,3.83
+2142,Web Development,High,No,0,6.61,5.2,3.66
+2143,Web Development,High,Yes,0,7.06,9.0,5.86
+2144,Data Science,High,No,1,7.92,6.9,6.36
+2145,Web Development,Low,Yes,2,7.53,4.4,5.1
+2146,Data Science,High,Yes,0,8.51,5.4,8.65
+2147,Cybersecurity,Low,No,1,9.47,7.2,7.78
+2148,Networking,Medium,Yes,1,6.19,8.7,3.86
+2149,Web Development,High,No,1,6.08,5.8,2.5
+2150,Web Development,Medium,No,2,7.31,4.6,3.49
+2151,Networking,Medium,No,0,6.88,9.6,4.53
+2152,Cloud Computing,High,No,1,7.75,7.1,5.87
+2153,Data Science,High,Yes,1,9.63,8.6,10.09
+2154,Data Science,High,Yes,1,8.98,5.5,8.93
+2155,Web Development,Medium,No,0,7.56,6.7,4.9
+2156,Networking,Medium,Yes,0,6.44,9.2,4.72
+2157,Cybersecurity,Low,No,2,7.08,4.7,3.91
+2158,Cybersecurity,Low,Yes,0,8.59,8.3,8.76
+2159,Networking,Medium,No,2,7.97,7.8,3.43
+2160,Networking,Low,No,0,6.29,5.9,3.06
+2161,Networking,High,Yes,2,6.5,8.0,3.45
+2162,Networking,High,No,0,5.85,6.7,2.99
+2163,Cybersecurity,Medium,No,1,7.43,5.2,5.21
+2164,Networking,Low,Yes,0,6.38,6.2,4.85
+2165,Web Development,Medium,No,0,8.6,9.5,6.65
+2166,Web Development,Low,No,0,8.15,7.3,5.32
+2167,Web Development,High,Yes,0,6.49,6.1,4.62
+2168,Cybersecurity,Medium,Yes,2,9.21,5.1,8.12
+2169,Cloud Computing,High,Yes,1,7.77,8.7,6.2
+2170,Data Science,Medium,Yes,1,9.28,8.2,8.95
+2171,Cloud Computing,Low,Yes,2,7.69,7.3,7.4
+2172,Web Development,High,No,0,8.42,7.4,6.03
+2173,Cloud Computing,Medium,Yes,1,6.83,5.2,5.11
+2174,Cybersecurity,Low,Yes,3,8.09,4.9,6.34
+2175,Cybersecurity,High,No,0,7.11,6.1,5.04
+2176,Cloud Computing,High,Yes,0,7.08,8.6,6.25
+2177,Cloud Computing,Medium,Yes,0,8.52,9.4,7.51
+2178,Web Development,Medium,Yes,0,6.65,9.9,4.68
+2179,Networking,Low,No,0,5.56,9.2,3.16
+2180,Data Science,Medium,No,0,9.24,6.3,7.32
+2181,Cloud Computing,Medium,Yes,0,7.06,5.8,5.69
+2182,Cybersecurity,Medium,Yes,1,7.73,4.5,7.37
+2183,Data Science,Medium,Yes,3,9.56,5.6,8.61
+2184,Data Science,Medium,No,2,8.79,6.9,6.28
+2185,Cloud Computing,Medium,No,0,8.83,9.3,7.65
+2186,Cloud Computing,High,No,0,8.84,6.9,6.76
+2187,Data Science,Low,No,0,9.76,9.2,8.33
+2188,Web Development,Low,No,3,7.29,6.3,4.12
+2189,Web Development,High,No,0,6.92,8.3,4.82
+2190,Data Science,High,No,0,8.97,5.6,7.72
+2191,Cloud Computing,Low,No,2,7.69,7.5,5.41
+2192,Cybersecurity,Medium,Yes,1,9.46,7.8,9.92
+2193,Cloud Computing,Low,No,0,8.82,7.4,7.3
+2194,Web Development,High,Yes,1,7.32,7.0,5.76
+2195,Cloud Computing,Medium,Yes,0,8.52,9.0,7.57
+2196,Web Development,Medium,Yes,0,6.06,6.4,4.47
+2197,Data Science,Medium,No,1,9.02,9.1,7.92
+2198,Cybersecurity,High,Yes,2,7.51,7.5,6.44
+2199,Data Science,Medium,Yes,0,8.39,6.8,7.8
+2200,Networking,High,No,0,6.1,6.0,3.45
+2201,Cloud Computing,Medium,Yes,0,7.95,5.0,7.29
+2202,Networking,Medium,No,1,7.43,9.5,4.58
+2203,Cybersecurity,Low,Yes,0,7.99,4.7,7.01
+2204,Networking,Low,No,0,7.96,4.0,4.65
+2205,Cybersecurity,Medium,No,2,7.11,5.1,4.35
+2206,Cloud Computing,Low,No,0,7.47,9.5,5.68
+2207,Data Science,Medium,Yes,2,9.44,4.8,8.82
+2208,Networking,High,No,0,5.68,5.4,2.5
+2209,Cybersecurity,Medium,No,1,9.24,5.0,7.44
+2210,Cloud Computing,Low,Yes,2,7.78,5.5,5.73
+2211,Networking,Medium,Yes,0,7.36,9.8,5.43
+2212,Cloud Computing,Low,No,3,8.06,8.7,6.28
+2213,Networking,High,Yes,2,7.54,9.0,5.43
+2214,Cybersecurity,Medium,No,1,8.72,5.4,6.71
+2215,Cloud Computing,Low,Yes,0,9.02,9.2,9.63
+2216,Data Science,Low,Yes,0,9.36,8.7,9.69
+2217,Web Development,High,Yes,1,8.22,7.2,6.63
+2218,Web Development,Low,Yes,0,8.21,7.2,6.96
+2219,Cybersecurity,High,Yes,3,9.13,9.4,7.71
+2220,Cloud Computing,Low,No,2,6.52,7.9,5.08
+2221,Networking,Medium,Yes,0,7.95,6.0,6.34
+2222,Cloud Computing,High,No,0,9.06,6.5,7.76
+2223,Cybersecurity,High,Yes,0,8.19,7.4,8.35
+2224,Cybersecurity,High,No,2,7.72,9.2,5.12
+2225,Web Development,Medium,Yes,2,8.0,9.1,5.78
+2226,Networking,High,No,0,6.27,6.7,3.04
+2227,Cybersecurity,High,No,1,7.85,4.7,5.69
+2228,Networking,Low,No,0,6.06,9.0,2.86
+2229,Cybersecurity,Medium,No,0,8.46,9.2,6.82
+2230,Networking,Low,No,0,6.64,4.6,3.38
+2231,Cloud Computing,High,No,1,8.27,9.5,5.65
+2232,Cloud Computing,High,Yes,2,8.85,9.3,7.17
+2233,Cybersecurity,High,Yes,2,8.61,4.4,7.2
+2234,Data Science,Low,No,2,8.37,7.7,7.82
+2235,Cloud Computing,High,No,0,8.66,4.2,7.51
+2236,Cybersecurity,High,Yes,0,7.89,4.8,8.07
+2237,Networking,High,No,3,7.9,7.0,3.31
+2238,Networking,Low,Yes,0,6.55,9.2,4.59
+2239,Cybersecurity,Low,Yes,2,8.61,8.9,7.49
+2240,Networking,Medium,Yes,0,7.84,4.7,5.43
+2241,Cybersecurity,Medium,No,1,7.09,8.8,4.58
+2242,Data Science,High,Yes,1,8.94,4.6,8.05
+2243,Web Development,Medium,Yes,2,7.01,7.2,4.94
+2244,Cloud Computing,Medium,Yes,0,7.97,7.7,6.54
+2245,Web Development,Low,No,0,6.84,7.3,3.78
+2246,Web Development,Medium,No,0,6.78,4.1,3.63
+2247,Cloud Computing,High,No,0,8.68,7.7,7.77
+2248,Web Development,High,Yes,3,8.13,6.2,4.99
+2249,Data Science,Low,Yes,2,8.07,10.0,7.81
+2250,Web Development,Low,No,0,8.55,7.9,5.55
+2251,Data Science,Medium,Yes,0,8.1,4.6,7.76
+2252,Web Development,High,No,1,6.6,5.3,4.21
+2253,Web Development,Medium,Yes,0,8.54,4.3,6.42
+2254,Data Science,Medium,No,1,7.82,5.5,6.14
+2255,Data Science,Low,Yes,0,8.57,6.0,8.49
+2256,Cybersecurity,Medium,Yes,0,8.78,4.7,8.49
+2257,Networking,Medium,Yes,3,6.93,5.0,3.5
+2258,Cloud Computing,Low,No,1,7.76,7.3,5.21
+2259,Networking,Low,No,0,7.97,9.7,5.08
+2260,Data Science,Medium,No,1,8.26,9.1,6.82
+2261,Cybersecurity,Medium,No,2,7.26,8.8,5.08
+2262,Cloud Computing,Medium,No,0,7.18,6.7,4.78
+2263,Networking,Medium,Yes,0,6.43,4.2,4.93
+2264,Cybersecurity,Medium,No,0,8.23,6.1,6.31
+2265,Cybersecurity,Low,Yes,0,7.09,6.6,6.2
+2266,Networking,Low,No,1,5.82,9.4,2.5
+2267,Cybersecurity,Medium,Yes,0,9.35,9.8,8.94
+2268,Cybersecurity,Medium,No,1,8.95,7.3,7.49
+2269,Data Science,Low,No,0,9.45,5.6,8.31
+2270,Data Science,Low,Yes,0,7.66,5.7,7.75
+2271,Cloud Computing,Medium,Yes,0,7.42,7.9,7.65
+2272,Cybersecurity,High,Yes,3,8.82,9.3,8.45
+2273,Web Development,High,Yes,0,8.24,6.8,7.5
+2274,Web Development,High,Yes,1,6.46,9.1,4.4
+2275,Cloud Computing,Low,Yes,1,8.7,9.3,8.79
+2276,Cybersecurity,Medium,No,1,7.43,6.6,5.66
+2277,Cloud Computing,Medium,Yes,0,6.97,9.9,6.38
+2278,Web Development,Medium,Yes,0,7.99,5.4,5.9
+2279,Cloud Computing,Medium,Yes,1,7.88,9.3,6.69
+2280,Cybersecurity,Medium,Yes,0,7.87,5.0,7.08
+2281,Data Science,Medium,Yes,0,7.52,6.6,7.93
+2282,Web Development,Medium,Yes,3,7.9,4.1,4.25
+2283,Data Science,Low,No,1,8.23,9.2,6.28
+2284,Cloud Computing,Low,No,2,7.83,9.6,6.27
+2285,Cloud Computing,Medium,Yes,1,7.53,8.6,5.61
+2286,Data Science,Low,No,3,8.28,7.8,6.18
+2287,Networking,High,Yes,3,5.53,6.5,2.99
+2288,Cloud Computing,High,Yes,3,8.01,4.7,5.52
+2289,Web Development,High,No,0,7.42,8.3,4.41
+2290,Data Science,High,No,0,7.54,7.2,6.28
+2291,Cybersecurity,High,No,0,7.55,4.3,6.57
+2292,Cybersecurity,Low,Yes,0,9.28,4.4,9.7
+2293,Networking,Medium,Yes,0,7.64,5.7,6.52
+2294,Cybersecurity,Low,Yes,0,8.95,6.9,8.5
+2295,Cybersecurity,Low,Yes,0,7.21,5.2,5.92
+2296,Cybersecurity,Medium,Yes,3,7.85,7.2,6.43
+2297,Cloud Computing,Low,Yes,3,8.53,8.5,6.76
+2298,Data Science,Low,Yes,1,8.11,5.4,7.16
+2299,Web Development,High,No,1,6.15,6.5,3.52
+2300,Data Science,High,Yes,1,8.13,8.7,8.27
+2301,Web Development,High,Yes,0,8.69,5.3,6.97
+2302,Cybersecurity,High,No,0,9.1,6.0,7.78
+2303,Data Science,High,No,2,8.24,4.5,6.48
+2304,Data Science,Low,Yes,1,8.91,4.7,7.85
+2305,Cloud Computing,High,Yes,2,7.6,8.5,5.79
+2306,Web Development,Low,No,1,7.01,4.2,3.96
+2307,Networking,Low,No,1,5.93,9.9,3.19
+2308,Data Science,Low,Yes,2,8.21,7.3,7.27
+2309,Data Science,Low,Yes,1,7.88,9.0,7.34
+2310,Data Science,Medium,Yes,3,8.63,9.8,7.8
+2311,Web Development,Low,Yes,0,7.18,9.2,5.21
+2312,Cybersecurity,High,Yes,0,7.77,8.1,7.22
+2313,Web Development,Low,No,2,8.04,8.9,4.28
+2314,Data Science,Low,No,1,8.59,9.1,7.11
+2315,Cybersecurity,High,Yes,1,8.49,6.5,7.74
+2316,Web Development,Medium,No,0,7.18,9.3,4.2
+2317,Cybersecurity,Medium,Yes,1,9.15,8.1,8.62
+2318,Networking,Low,Yes,2,7.51,8.2,4.59
+2319,Cybersecurity,Medium,No,0,9.29,9.9,7.44
+2320,Cloud Computing,Medium,Yes,0,9.1,8.8,9.02
+2321,Networking,High,No,1,7.55,4.7,4.82
+2322,Cloud Computing,Medium,Yes,3,8.34,9.5,6.41
+2323,Networking,Low,Yes,0,5.93,4.7,3.21
+2324,Web Development,Medium,Yes,0,7.9,9.7,6.37
+2325,Data Science,High,Yes,1,8.18,9.5,7.59
+2326,Cybersecurity,Low,Yes,0,7.77,8.8,7.58
+2327,Cloud Computing,Low,Yes,2,8.39,7.3,6.48
+2328,Cloud Computing,Medium,Yes,1,7.18,4.0,4.8
+2329,Cybersecurity,High,Yes,2,8.43,7.0,7.51
+2330,Cloud Computing,High,No,2,7.7,8.3,5.45
+2331,Cloud Computing,High,Yes,0,7.95,7.0,7.32
+2332,Web Development,Medium,Yes,0,6.79,7.2,5.56
+2333,Cybersecurity,High,No,1,9.25,7.0,7.6
+2334,Networking,High,Yes,0,6.98,8.2,5.2
+2335,Data Science,Medium,No,2,8.13,4.5,6.01
+2336,Networking,High,No,0,5.95,8.8,3.14
+2337,Data Science,Medium,No,0,8.11,7.2,6.57
+2338,Data Science,Low,No,0,8.67,8.3,7.37
+2339,Networking,Medium,Yes,1,7.51,9.3,4.61
+2340,Networking,Medium,Yes,3,7.72,9.4,5.42
+2341,Networking,Low,Yes,0,7.6,8.6,6.37
+2342,Data Science,High,Yes,2,7.72,4.1,5.66
+2343,Networking,Medium,Yes,1,7.54,8.3,4.62
+2344,Data Science,High,No,0,8.21,5.4,7.37
+2345,Cybersecurity,Medium,Yes,0,7.6,7.6,8.47
+2346,Cybersecurity,High,Yes,0,8.29,4.8,7.47
+2347,Web Development,Low,Yes,1,7.43,6.2,5.8
+2348,Cloud Computing,Low,No,0,9.06,4.9,6.61
+2349,Cloud Computing,High,No,2,7.39,8.0,4.35
+2350,Web Development,Low,Yes,1,8.74,9.8,7.03
+2351,Web Development,Low,No,1,8.15,5.1,4.21
+2352,Cloud Computing,Medium,No,1,8.13,7.2,5.69
+2353,Data Science,Low,Yes,1,9.17,4.3,8.35
+2354,Networking,Medium,No,1,6.72,6.9,3.4
+2355,Web Development,Medium,Yes,0,6.96,4.9,5.25
+2356,Cybersecurity,Low,Yes,0,7.62,5.3,7.32
+2357,Web Development,Medium,No,3,7.8,5.2,4.18
+2358,Cybersecurity,Low,Yes,2,7.11,7.9,6.86
+2359,Cybersecurity,Medium,Yes,2,8.52,4.8,7.24
+2360,Data Science,Low,Yes,0,8.89,5.6,10.02
+2361,Cloud Computing,High,Yes,0,8.08,8.1,7.59
+2362,Cybersecurity,Low,No,0,9.25,5.8,7.25
+2363,Web Development,High,No,2,7.15,9.5,3.97
+2364,Networking,Low,No,3,6.09,9.0,2.5
+2365,Web Development,Medium,No,1,7.91,10.0,5.17
+2366,Web Development,Low,No,0,8.76,7.2,6.47
+2367,Web Development,Medium,Yes,0,6.11,5.3,4.41
+2368,Web Development,Medium,Yes,1,6.4,8.7,4.69
+2369,Web Development,Medium,No,1,7.29,6.7,4.8
+2370,Web Development,Medium,Yes,1,7.64,9.6,5.88
+2371,Data Science,High,Yes,0,8.63,9.0,8.89
+2372,Cybersecurity,High,Yes,3,8.23,7.5,6.4
+2373,Networking,Medium,No,2,5.69,4.3,2.5
+2374,Cloud Computing,Low,No,0,7.55,8.7,5.52
+2375,Networking,High,No,3,6.05,4.1,2.5
+2376,Networking,Low,No,1,7.59,6.1,3.61
+2377,Networking,Medium,No,1,6.73,6.0,3.4
+2378,Cloud Computing,High,Yes,3,8.2,5.6,6.73
+2379,Web Development,Medium,No,0,8.71,8.7,6.01
+2380,Cybersecurity,Medium,No,0,7.36,9.1,6.63
+2381,Networking,Medium,Yes,0,7.29,4.9,5.42
+2382,Networking,Low,Yes,1,6.92,9.1,5.02
+2383,Cybersecurity,Medium,No,1,9.29,4.6,7.03
+2384,Cloud Computing,High,Yes,0,7.93,4.1,6.47
+2385,Web Development,High,Yes,1,6.35,7.3,4.41
+2386,Networking,Medium,Yes,0,7.08,9.2,5.97
+2387,Web Development,Medium,No,1,6.77,4.3,3.97
+2388,Cloud Computing,Medium,No,3,6.82,6.4,3.42
+2389,Data Science,Medium,Yes,3,9.03,4.0,7.62
+2390,Web Development,Medium,Yes,0,7.57,9.1,6.55
+2391,Networking,High,Yes,1,6.01,6.1,4.24
+2392,Web Development,Low,No,0,6.75,9.7,4.06
+2393,Networking,High,No,1,5.8,4.3,2.5
+2394,Cloud Computing,High,Yes,0,7.64,4.5,6.26
+2395,Networking,High,Yes,0,7.61,5.9,5.22
+2396,Cybersecurity,Low,Yes,1,7.93,6.1,7.0
+2397,Cybersecurity,Medium,Yes,0,9.38,7.9,9.15
+2398,Data Science,Medium,Yes,0,8.87,5.1,8.88
+2399,Networking,High,Yes,2,6.44,6.2,3.98
+2400,Cybersecurity,Medium,No,1,8.94,4.9,6.74
+2401,Cybersecurity,Medium,Yes,1,7.67,5.0,6.16
+2402,Web Development,High,No,1,8.14,9.3,5.25
+2403,Cybersecurity,Low,No,0,9.38,6.8,7.87
+2404,Cloud Computing,Low,Yes,2,8.01,9.2,6.29
+2405,Cloud Computing,Low,Yes,1,7.17,6.1,5.92
+2406,Data Science,Medium,Yes,1,9.45,5.8,8.02
+2407,Cloud Computing,Medium,No,1,9.08,5.7,6.51
+2408,Cloud Computing,High,Yes,1,7.35,9.9,6.58
+2409,Web Development,Medium,No,0,6.09,8.5,3.46
+2410,Networking,Low,Yes,1,5.69,7.0,3.38
+2411,Cloud Computing,Medium,Yes,3,8.34,6.3,6.78
+2412,Web Development,Low,Yes,1,7.55,4.8,6.22
+2413,Web Development,Low,Yes,0,8.26,9.1,6.93
+2414,Networking,Low,Yes,2,5.83,7.6,2.94
+2415,Data Science,Low,No,0,9.29,7.6,8.0
+2416,Data Science,Low,Yes,2,8.54,6.0,7.98
+2417,Web Development,Medium,No,1,8.28,7.5,5.85
+2418,Data Science,High,Yes,1,9.07,7.9,9.18
+2419,Web Development,High,No,1,7.22,5.4,4.19
+2420,Networking,Low,No,0,6.97,5.5,2.83
+2421,Web Development,High,Yes,1,8.35,6.7,7.16
+2422,Web Development,Low,No,3,6.59,4.1,2.5
+2423,Networking,Low,Yes,1,6.13,4.6,3.59
+2424,Cloud Computing,Medium,Yes,1,7.27,4.5,5.92
+2425,Networking,Low,Yes,1,7.41,4.1,4.89
+2426,Data Science,Low,Yes,2,9.42,8.1,8.61
+2427,Cloud Computing,Low,Yes,1,7.75,7.0,6.23
+2428,Cybersecurity,Medium,Yes,0,8.17,6.1,7.33
+2429,Data Science,Low,No,0,9.49,7.3,8.7
+2430,Cybersecurity,Low,No,3,8.36,7.9,5.73
+2431,Data Science,Medium,No,3,9.18,4.4,6.72
+2432,Cloud Computing,Low,Yes,2,7.92,8.7,6.77
+2433,Cybersecurity,Low,Yes,3,7.88,8.3,6.3
+2434,Networking,High,Yes,1,5.56,7.6,2.81
+2435,Cloud Computing,Medium,Yes,3,7.65,5.1,4.99
+2436,Data Science,High,No,1,8.25,5.5,7.14
+2437,Data Science,High,Yes,0,9.24,7.4,9.13
+2438,Networking,Low,Yes,3,7.65,8.3,4.95
+2439,Cloud Computing,Low,No,2,7.23,6.5,4.07
+2440,Cloud Computing,High,Yes,0,7.95,9.6,7.35
+2441,Data Science,High,Yes,0,8.61,5.7,8.57
+2442,Web Development,Low,No,1,8.36,8.4,5.69
+2443,Networking,Medium,Yes,2,7.34,5.7,4.61
+2444,Cybersecurity,Medium,No,1,7.04,6.1,5.34
+2445,Data Science,Low,No,0,9.29,6.9,7.77
+2446,Data Science,Medium,No,0,8.09,6.4,6.99
+2447,Cybersecurity,Low,Yes,2,8.69,7.9,8.1
+2448,Data Science,Low,Yes,0,9.19,5.5,9.55
+2449,Cloud Computing,Medium,Yes,1,6.5,8.1,4.59
+2450,Cloud Computing,Low,Yes,0,7.3,7.9,6.51
+2451,Cloud Computing,High,Yes,0,6.7,7.1,5.27
+2452,Cloud Computing,Low,No,3,6.79,9.9,3.88
+2453,Cloud Computing,High,No,2,7.99,8.1,5.79
+2454,Data Science,High,Yes,2,8.01,6.4,7.43
+2455,Cloud Computing,Medium,Yes,1,7.38,6.3,6.43
+2456,Web Development,Medium,No,0,6.04,4.0,3.53
+2457,Cloud Computing,High,Yes,1,6.83,9.7,5.41
+2458,Networking,Medium,Yes,0,6.47,4.0,4.61
+2459,Cybersecurity,Low,Yes,0,8.8,4.3,8.64
+2460,Data Science,Low,No,0,8.62,6.1,6.98
+2461,Networking,High,Yes,2,7.53,7.1,4.77
+2462,Cybersecurity,High,Yes,1,8.25,4.3,7.68
+2463,Cloud Computing,High,Yes,0,7.29,4.4,5.73
+2464,Cloud Computing,Low,Yes,2,8.7,7.3,6.99
+2465,Cloud Computing,Low,Yes,1,7.13,7.3,6.46
+2466,Cloud Computing,Low,Yes,1,7.78,4.8,5.57
+2467,Cloud Computing,Medium,No,0,8.27,5.9,5.5
+2468,Web Development,Low,Yes,1,7.74,8.9,5.61
+2469,Web Development,Low,No,0,7.1,9.8,4.76
+2470,Networking,Medium,Yes,3,6.55,6.3,3.31
+2471,Cybersecurity,Low,No,1,8.42,8.0,6.54
+2472,Cybersecurity,High,Yes,1,9.28,8.2,9.08
+2473,Networking,High,No,0,5.66,9.7,2.5
+2474,Networking,Medium,No,0,7.41,8.0,4.01
+2475,Cloud Computing,Low,No,0,8.96,8.3,6.95
+2476,Networking,High,No,0,6.26,6.9,3.54
+2477,Networking,Low,No,0,5.58,7.9,2.5
+2478,Data Science,Low,Yes,1,8.42,7.3,9.0
+2479,Cloud Computing,High,Yes,0,6.88,8.3,5.56
+2480,Cloud Computing,Medium,Yes,0,6.84,6.0,5.69
+2481,Cloud Computing,Low,No,2,8.56,6.1,5.17
+2482,Networking,Low,Yes,0,7.89,4.6,5.19
+2483,Data Science,Low,Yes,0,9.32,4.2,9.83
+2484,Web Development,Medium,Yes,1,7.34,4.0,5.42
+2485,Cybersecurity,Low,Yes,0,8.97,8.0,8.81
+2486,Cloud Computing,Low,No,2,6.73,9.0,4.44
+2487,Cybersecurity,High,Yes,0,9.01,6.6,9.71
+2488,Web Development,Medium,Yes,1,6.91,5.7,4.21
+2489,Networking,Low,No,0,6.18,5.2,2.71
+2490,Cloud Computing,Medium,Yes,1,7.66,6.5,6.75
+2491,Web Development,High,No,2,6.41,6.5,3.15
+2492,Cybersecurity,Medium,No,3,7.15,7.8,4.48
+2493,Web Development,Medium,Yes,2,7.39,5.5,4.27
+2494,Cloud Computing,Medium,No,0,7.06,8.1,4.47
+2495,Cybersecurity,Medium,No,0,8.4,7.7,6.95
+2496,Cloud Computing,Low,No,2,7.51,7.1,4.6
+2497,Cloud Computing,High,No,1,7.74,8.4,5.31
+2498,Data Science,High,No,0,8.91,9.6,8.19
+2499,Cybersecurity,Medium,Yes,0,9.37,6.9,9.05
+2500,Web Development,High,No,0,8.1,6.2,5.4
