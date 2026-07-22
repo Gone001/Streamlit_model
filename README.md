@@ -20,6 +20,7 @@ Streamlit App/
 ├── 08_feedback_messages.py        # ✅ Colored feedback boxes
 ├── 09_metric_and_charts.py        # 📈 Metrics + Charts
 ├── 10_layout_columns_and_sidebar.py # 🧱 Layout (Columns + Sidebar)
+├── original_form.py               # 🎯 Main Placement Prediction App
 │
 ├── load_and_save_model.py         # 🤖 Train placement classifier
 ├── load_and_save_regressor.py     # 🤖 Train package regressor
@@ -423,7 +424,88 @@ flowchart TD
 
 ---
 
-## 1️⃣2️⃣ ML Model Training Files
+## 1️⃣2️⃣ original_form.py — Main Placement Prediction App
+
+**Yeh hai aapki final app — jahan saare widgets milkar ek real ML prediction form banate hain.**
+
+```python
+clf = joblib.load("placement_model.pkl")       # Saved classifier load
+reg = joblib.load("package_model.pkl")          # Saved regressor load
+clf_columns = joblib.load("placement_columns.pkl")  # Column names load
+reg_columns = joblib.load("package_columns.pkl")
+
+specialization = st.selectbox("Specialization", [...])  # Dropdown
+attendance = st.selectbox("Attendance", ["High","Medium","Low"])
+internship = st.selectbox("Internship done?", ["Yes","No"])
+backlogs = st.number_input("Backlogs", 0, 10, 1)        # Number
+cgpa = st.number_input("CGPA", 0.0, 10.0, 0.1)
+comm = st.number_input("Communication score", 0.0, 10.0)
+
+if st.button("Predict"):                                 # Action trigger
+    row = pd.DataFrame([{...}])                          # Input row
+    row_encoded = pd.get_dummies(row)                   # One-hot encode
+
+    placed = clf.predict(row_encoded.reindex(           # Classify
+        columns=clf_columns, fill_value=False))[0]
+    package = reg.predict(row_encoded.reindex(           # Regress
+        columns=reg_columns, fill_value=False))[0]
+
+    st.write("Will Placed" if placed == 1 else "Will Not Placed")
+    st.write("predicted package:", round(package, 2))
+```
+
+| Function/Concept | Kaam | Kyu? |
+|---|---|---|
+| `joblib.load()` | Saved model file load karta hai | Trained model ko wapas use karne ke liye |
+| `st.selectbox()` | Dropdown menu | Categorical input lene ke liye |
+| `st.number_input()` | Number input box | Numerical input lene ke liye |
+| `st.button("Predict")` | Click button | Tab hi prediction trigger hota hai |
+| `pd.DataFrame()` | Input data ka table banata hai | Model ko ek row feed karne ke liye |
+| `pd.get_dummies()` | Categorical → numeric | ML model sirf numbers samajhta hai |
+| `.reindex(columns=..., fill_value=False)` | Missing columns ko 0 se fill karta hai | Training aur inference ke columns match karne ke liye |
+| `clf.predict()` | Placement predict (0/1) | Student placed hoga ya nahi |
+| `reg.predict()` | Package predict (continuous) | Kitni salary milegi |
+| `round(package, 2)` | Decimal round off | Output readable banane ke liye |
+
+### Key Concept: `reindex` + `fill_value=False`
+> Jab aap ek single student row ko one-hot encode karte ho, toh kuch columns missing ho sakte hain (e.g., sirf "Data Science" select kiya to "Cybersecurity", "Networking" wale columns nahi bane). `reindex` un missing columns ko `False` (0) se bhar deta hai taaki model ko waisa hi structure mile jaise training time pe tha.
+
+### Flow
+
+```mermaid
+flowchart TD
+    A[App Start] --> B[Load models & columns]
+    B --> C[Render input form]
+    
+    subgraph "Input Form"
+        D[st.selectbox - Specialization]
+        E[st.selectbox - Attendance]
+        F[st.selectbox - Internship]
+        G[st.number_input - Backlogs]
+        H[st.number_input - CGPA]
+        I[st.number_input - Comm Score]
+    end
+    
+    C --> J[st.button Predict]
+    J --> K{Button clicked?}
+    K -->|No| L[Wait]
+    K -->|Yes| M[Build DataFrame]
+    M --> N[pd.get_dummies encode]
+    N --> O[.reindex fill missing cols]
+    O --> P[clf.predict placement]
+    O --> Q[reg.predict package]
+    P --> R[Will Placed / Will Not Placed]
+    Q --> S[Predicted Package LPA]
+    
+    style A fill:#f96,stroke:#333
+    style J fill:#bbf,stroke:#333
+    style R fill:#9f9,stroke:#333
+    style S fill:#9f9,stroke:#333
+```
+
+---
+
+## 1️⃣3️⃣ ML Model Training Files
 
 ### load_and_save_model.py — Placement Classifier
 
@@ -549,15 +631,22 @@ flowchart TB
         D10[10_layout]
     end
     
+    subgraph "Final App"
+        APP[original_form.py]
+    end
+    
     CSV1 --> M1
     CSV2 --> M2
     M1 --> PM
     M2 --> RM
     PM --> V
     RM --> V
+    PM --> APP
+    RM --> APP
     
     style PM fill:#f9f,stroke:#333
     style RM fill:#f9f,stroke:#333
+    style APP fill:#6cf,stroke:#333,stroke-width:3px
 ```
 
 ---
@@ -576,16 +665,19 @@ joblib
 ## 🚀 Run Commands
 
 ```bash
-# Widget demos
+# 🎯 Main App
+streamlit run original_form.py
+
+# 📝 Widget demos (10 controls)
 streamlit run 01_display_basics.py
 streamlit run 02_text_input.py
-# ... (saare 10 controls)
+# ... saare 10 controls individually
 
-# Train models
+# 🤖 Train models (pehle run karo)
 python load_and_save_model.py
 python load_and_save_regressor.py
 
-# Verify models
+# ✅ Verify saved models
 python load_and_confirm.py
 ```
 
