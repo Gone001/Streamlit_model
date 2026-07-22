@@ -3,7 +3,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
-df = pd.read_csv("student_placement_history (1).csv")
+df = pd.read_csv("student_placement_history.csv")
 X = pd.get_dummies(df.drop(columns=["StudentID", "Placed"]))
 y = df["Placed"]
 X_train, X_test, y_train, y_test = train_test_split(

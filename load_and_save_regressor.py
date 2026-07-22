@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
-df = pd.read_csv("student_package_prediction (1).csv")
+df = pd.read_csv("student_package_prediction.csv")
 X = pd.get_dummies(df.drop(columns=["StudentID", "PackageLPA"]))
 y = df["PackageLPA"]
 X_train, X_test, y_train, y_test = train_test_split(
